@@ -1,0 +1,2 @@
+# dayzconfiggen
+DayZ Config Generator
