@@ -279,6 +279,8 @@ def generator(pdrive, folder, isroot):
 
     if len(units) > 0:
         units = units[:-2]
+    else:
+        return
 
     config = cfgPatchesTemplate.format(CFGPATCHES_CLASSNAME, units, REQUIRED_ADDONS, BASECLASS)
     for e in entries:
